@@ -171,7 +171,7 @@ class _ArgonButtonState extends State<ArgonButton>
                   widget.borderRadius, widget.height / 2, _animation.value)!
               : widget.borderRadius),
         ),
-        child: RaisedButton(
+        child: MaterialButton(
             key: _buttonKey,
             color: widget.color,
             focusColor: widget.focusColor,
@@ -406,7 +406,7 @@ class _ArgonTimerButtonState extends State<ArgonTimerButton>
                   widget.borderRadius, widget.height / 2, _animation.value)!
               : widget.borderRadius),
         ),
-        child: RaisedButton(
+        child: MaterialButton(
             color: widget.color,
             focusColor: widget.focusColor,
             hoverColor: widget.hoverColor,
